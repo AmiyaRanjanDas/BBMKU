@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Super Slick Vertical</title>
+  
+  
+  <link rel='stylesheet' href='http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css'>
+
+<style>
+.slick-carousel{
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.slick-carousel img {
+width: 200px;
+}
+
+</style>
+  
+</head>
+
+<body>
+
+   <div class="slick-carousel">
+      <div><img src="https://i.ibb.co/VYv197X/21.png" class=" ">
+      </div>
+      <div><img src="https://i.ibb.co/9VSms94/1.png"  class=" ">
+      </div>
+      <div><img src="https://i.ibb.co/8zdv0zR/4.png"  class=" ">
+      </div>
+      <div><img src="https://i.ibb.co/3SRWr78/7.png " class=" ">
+      </div>
+      <div><img src="https://i.ibb.co/MhZfWYZ/13.png" class=" ">
+      </div>
+   </div>
+
+<script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
+<script src='https://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+<script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
+
+  
+
+    <!-- <script  src="./script.js"></script> -->
+    <script>
+    	$('.slick-carousel').slick({
+        vertical:true,
+        verticalSwiping:true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed:5000,
+        cssEase: 'linear',
+        infinite: true,
+        arrows:false,
+        touchMove:true,
+        swipeToSlide:true,
+        swipe:true
+  })
+</script>
+
+
+
+
+</body>
+
+</html>
